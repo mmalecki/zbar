@@ -12,7 +12,7 @@ as well as GUI widgets for Qt, GTK and PyGTK.
 Check the ZBar home page for the latest release, mailing lists, etc.
     http://zbar.sourceforge.net/
 
-License information can be found in `LICENSE`.
+License information can be found in `COPYING`.
 
 
 # Building
