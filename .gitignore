@@ -34,3 +34,8 @@ android/local.properties
 android/examples/*/local.properties
 .deps
 .*.sw[op]
+*.o
+*.lo
+*.la
+.dirstamp
+.libs
