@@ -119,7 +119,7 @@ const char *_zbar_error_string (const void *container,
 
     func = (err->func) ? err->func : "<unknown>";
 
-    if(err->type >= 0 && err->type < ZBAR_ERR_NUM)
+    if(err->type < ZBAR_ERR_NUM)
         type = err_str[err->type];
     else
         type = err_str[ZBAR_ERR_NUM];

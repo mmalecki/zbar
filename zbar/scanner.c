@@ -201,7 +201,7 @@ zbar_symbol_type_t zbar_scanner_new_scan (zbar_scanner_t *scn)
     zbar_symbol_type_t edge = ZBAR_NONE;
     while(scn->y1_sign) {
         zbar_symbol_type_t tmp = zbar_scanner_flush(scn);
-        if(tmp < 0 || tmp > edge)
+        if(tmp > edge)
             edge = tmp;
     }
 

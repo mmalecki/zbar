@@ -424,7 +424,8 @@ int main (int argc, const char *argv[])
 #ifdef HAVE_UNISTD_H
         long clk_tck = sysconf(_SC_CLK_TCK);
         struct tms tms;
-        if(clk_tck > 0 && times(&tms) >= 0) {
+        if(clk_tck > 0) {
+            times(&tms);
             double secs = tms.tms_utime + tms.tms_stime;
             secs /= clk_tck;
             fprintf(stderr, " in %.2g seconds\n", secs);
