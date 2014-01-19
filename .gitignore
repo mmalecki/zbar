@@ -32,3 +32,5 @@ android/examples/*/libs
 android/*.zip
 android/local.properties
 android/examples/*/local.properties
+.deps
+.*.sw[op]
