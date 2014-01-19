@@ -146,7 +146,7 @@ ldconfig
 %doc %{_docdir}/%{name}-%{version}/INSTALL
 %doc %{_docdir}/%{name}-%{version}/LICENSE
 %doc %{_docdir}/%{name}-%{version}/NEWS
-%doc %{_docdir}/%{name}-%{version}/README
+%doc %{_docdir}/%{name}-%{version}/README.md
 %doc %{_docdir}/%{name}-%{version}/TODO
 
 %files devel
