@@ -109,7 +109,7 @@ AC_ARG_ENABLE([codes],
   [AS_HELP_STRING([--enable-codes=SYMS],
     [select symbologies to compile [default=ean,databar,code128,code93,code39,codabar,i25,qrcode]])],
   [],
-  [enable_codes="ean,databar,code128,code93,code39,codabar,i25,qrcode"])
+  [enable_codes="ean,databar,code128,code93,code39,codabar,i25,qrcode,pdf417"])
 
 AC_DEFUN([ZBAR_CHK_CODE], [
   AC_MSG_CHECKING([whether to build $2])
